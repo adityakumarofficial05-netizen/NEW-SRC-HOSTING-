@@ -1,0 +1,27 @@
+[
+  {
+    "couple_id": "15979221169_15979221168",
+    "account1": {
+      "uid": 5116411429,
+      "password": "230EEF04EB8C0BB42BB43CAF7B142ACD544E99AD06377AF9E79CB891EEE6F73C",
+      "name": "CHECM♪】『",
+      "region": "IND",
+      "status": "success",
+      "account_id": "15979221169",
+      "jwt_token": "eyJhbGciOiJIUzI1NiIsInN2ciI6IjMiLCJ0eXAiOiJKV1QifQ.eyJhY2NvdW50X2lkIjoxNTk3OTIyMTE2OSwibmlja25hbWUiOiJjaTF3ZTNUYStzbUJ1UFdGNU9vPSIsIm5vdGlfcmVnaW9uIjoiSU5EIiwibG9ja19yZWdpb24iOiJJTkQiLCJleHRlcm5hbF9pZCI6Ijk4OTE5ZTc4YjcyNTllZTE2ZmFlZDA1MjMwNjIwZTI4IiwiZXh0ZXJuYWxfdHlwZSI6NCwicGxhdF9pZCI6MSwiY2xpZW50X3ZlcnNpb24iOiIxLjExNC4xMyIsImVtdWxhdG9yX3Njb3JlIjoxMDAsImlzX2VtdWxhdG9yIjp0cnVlLCJjb3VudHJ5X2NvZGUiOiJJTiIsImV4dGVybmFsX3VpZCI6NTExNjQxMTQyOSwicmVnX2F2YXRhciI6MTAyMDAwMDA3LCJzb3VyY2UiOjAsImxvY2tfcmVnaW9uX3RpbWUiOjAsImNsaWVudF90eXBlIjoyLCJzaWduYXR1cmVfbWQ1IjoiNzQyOGIyNTNkZWZjMTY0MDE4YzYwNGExZWJiZmViZGYiLCJ1c2luZ192ZXJzaW9uIjoxLCJyZWxlYXNlX2NoYW5uZWwiOiJhbmRyb2lkIiwicmVsZWFzZV92ZXJzaW9uIjoiT0I1MyIsImV4cCI6MTc4MTA5NzM2MX0.y8cL-_r7MSffgzBPCMxBfW_DGk9OUQrjqwmOPTgAzuY",
+      "activation_status": "SUCCESS"
+    },
+    "account2": {
+      "uid": 5116411383,
+      "account_id": "15979221168",
+      "name": "CHECMƳ】〖♪",
+      "password": "13EA2066AE9BE4B79513C7CA7AD543C73324BF1579115DC7D4A5F72C24BC4605",
+      "region": "IND",
+      "thread_id": 1,
+      "timestamp": "2026-06-10T10:46:08.541039"
+    },
+    "reason": "Sequential: 15979221169 & 15979221168",
+    "region": "IND",
+    "date_matched": "2026-06-10 10:46:08"
+  }
+]

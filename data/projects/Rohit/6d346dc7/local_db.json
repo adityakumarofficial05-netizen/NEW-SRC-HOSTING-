@@ -1,0 +1,22 @@
+{
+    "users": {},
+    "categories": {
+        "ff_non_root": {
+            "name": "\ud83d\udd25 FF Apk Mod Non Root",
+            "products": {}
+        },
+        "ff_root": {
+            "name": "\ud83d\ude80 FF Root",
+            "products": {}
+        },
+        "ff_lvl8": {
+            "name": "\ud83c\udf96\ufe0f 8 Lvl Id",
+            "products": {}
+        }
+    },
+    "transactions": {},
+    "stats": {
+        "total_sold_keys": 0,
+        "total_revenue": 0.0
+    }
+}

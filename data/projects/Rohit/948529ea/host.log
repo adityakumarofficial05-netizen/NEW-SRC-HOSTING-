@@ -1,0 +1,1976 @@
+
+[WATCHDOG] Auto restart at 2026-06-12 12:05:36.124547
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 12:05:36.303224
+2026-06-12 12:05:40,491 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 12:05:41,453 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 12:05:41,461 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:35:03.713156
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:35:03.897324
+2026-06-12 16:35:07,059 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:35:08,080 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:35:08,086 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:36:01.579233
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:36:01.781366
+2026-06-12 16:36:04,783 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:36:06,065 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:36:06,068 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:36:41.433503
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:36:41.601348
+2026-06-12 16:36:44,557 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:36:45,451 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:36:45,456 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:37:20.692130
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:37:20.886633
+2026-06-12 16:37:24,075 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:37:24,904 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:37:24,912 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:38:01.272824
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:38:01.869829
+2026-06-12 16:38:08,255 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:38:08,932 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:38:08,937 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:38:42.586496
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:38:42.765229
+2026-06-12 16:38:45,936 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:38:46,612 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:38:46,618 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:39:20.805358
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:39:20.978770
+2026-06-12 16:39:24,016 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:39:24,791 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:39:24,795 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:43:24.703425
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:43:25.220383
+2026-06-12 16:43:29,419 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:43:30,158 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:43:30,163 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:44:08.437991
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:44:08.689241
+2026-06-12 16:44:12,017 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:44:12,854 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:44:12,859 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:44:47.871133
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:44:48.080738
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 17, in <module>
+    import aiohttp
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/__init__.py", line 6, in <module>
+    from .client import (
+    ...<42 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/client.py", line 94, in <module>
+    from .cookiejar import CookieJar
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/cookiejar.py", line 2, in <module>
+    import calendar
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1152, in get_code
+  File "<frozen importlib._bootstrap_external>", line 783, in _compile_bytecode
+  File "<frozen importlib._bootstrap>", line 491, in _verbose_message
+KeyboardInterrupt
+
+[WATCHDOG] Auto restart at 2026-06-12 16:58:28.357685
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:58:28.530946
+2026-06-12 16:58:31,735 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:58:32,434 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:58:32,439 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:59:09.431269
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:59:09.802978
+2026-06-12 16:59:15,280 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:59:15,885 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:59:15,886 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+
+[WATCHDOG] Auto restart at 2026-06-12 16:59:49.757653
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting auraff.py at 2026-06-12 16:59:49.932973
+2026-06-12 16:59:53,267 - __main__ - INFO - 🤖 SYSTEM OPERATIONAL - Fixed v8.1 Engine Live.
+2026-06-12 16:59:54,005 - httpx - INFO - HTTP Request: POST https://api.telegram.org/bot8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8/getMe "HTTP/1.1 401 Unauthorized"
+2026-06-12 16:59:54,010 - telegram.ext - ERROR - Network Retry Loop (Bootstrap Initialize Application): Invalid token. Aborting retry loop.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 857, in initialize
+    await self.get_me()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 2008, in get_me
+    return await super().get_me(
+           ^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 990, in get_me
+    result = await self._post(
+             ^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 704, in _post
+    return await self._do_post(
+           ^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 370, in _do_post
+    return await super()._do_post(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 733, in _do_post
+    result = await request.post(
+             ^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 198, in post
+    result = await self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/request/_baserequest.py", line 375, in _request_wrapper
+    raise exception
+telegram.error.InvalidToken: Unauthorized
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 755, in <module>
+    main()
+    ~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/Rohit/948529ea/auraff.py", line 752, in main
+    app.run_polling(allowed_updates=Update.ALL_TYPES)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 839, in run_polling
+    return self.__run(
+           ~~~~~~~~~~^
+        updater_coroutine=self.updater.start_polling(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<9 lines>...
+        close_loop=close_loop,
+        ^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1054, in __run
+    loop.run_until_complete(self._bootstrap_initialize(max_retries=bootstrap_retries))
+    ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 1014, in _bootstrap_initialize
+    await network_retry_loop(
+    ...<4 lines>...
+    )
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 161, in network_retry_loop
+    await do_action()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_utils/networkloop.py", line 136, in do_action
+    await action_cb()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_application.py", line 489, in initialize
+    await self.bot.initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/ext/_extbot.py", line 316, in initialize
+    await super().initialize()
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 860, in initialize
+    raise InvalidToken(f"The token `{self._token}` was rejected by the server.") from exc
+telegram.error.InvalidToken: The token `8108100182:AAGm_41rsUinN1UQEfV1psXpcpCWdaiwhy8` was rejected by the server.

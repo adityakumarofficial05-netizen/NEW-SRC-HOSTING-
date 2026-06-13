@@ -1,0 +1,182 @@
+ADITYA-V2 Bot is starting safely...
+✅ Loaded 379 number emotes and 420 named emotes
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+ErroR TcP - Cannot connect to host 100067.connect.garena.com:443 ssl:default [Multiple exceptions: [Errno 103] Connect call failed ('2405:200:1607:2820:41::36', 443, 0, 0), [Errno 103] Connect call failed ('49.44.79.236', 443)] => ResTarTinG ...
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+ErroR TcP - Cannot connect to host 100067.connect.garena.com:443 ssl:default [Multiple exceptions: [Errno 103] Connect call failed ('2405:200:1607:2820:41::36', 443, 0, 0), [Errno 103] Connect call failed ('49.44.79.236', 443)] => ResTarTinG ...
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+ErroR TcP - Cannot connect to host 100067.connect.garena.com:443 ssl:default [Multiple exceptions: [Errno 103] Connect call failed ('2405:200:1607:2820:41::36', 443, 0, 0), [Errno 103] Connect call failed ('49.44.79.236', 443)] => ResTarTinG ...
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Token ExpiRed ! , ResTartinG
+📁 Loading credentials from bot.txt...
+✅ Loaded credentials from bot.txt
+👤 UID: 4975484582
+🔑 Password: ****************************************************************
+✅ Credentials loaded successfully
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/upload_bots/8360629421/main.py", line 1677, in StarTinG
+    await asyncio.wait_for(MaiiiinE(), timeout = 7 * 60 * 60)
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "/data/data/com.termux/files/home/downloads/upload_bots/8360629421/main.py", line 10682, in MaiiiinE
+    open_id, access_token = await GeNeRaTeAccEss(Uid, Pw)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/home/downloads/upload_bots/8360629421/main.py", line 4492, in GeNeRaTeAccEss
+    async with session.post(url, headers=Hr, data=data) as response:
+               ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/client.py", line 1521, in __aenter__
+    self._resp: _RetType = await self._coro
+                           ^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/client.py", line 788, in _request
+    resp = await handler(req)
+           ^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/client.py", line 742, in _connect_and_send_request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/connector.py", line 672, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/connector.py", line 1251, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/connector.py", line 1592, in _create_direct_connection
+    transp, proto = await self._wrap_create_connection(
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<7 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohttp/connector.py", line 1310, in _wrap_create_connection
+    sock = await aiohappyeyeballs.start_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohappyeyeballs/impl.py", line 87, in start_connection
+    sock, _, _ = await _staggered.staggered_race(
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<13 lines>...
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohappyeyeballs/_staggered.py", line 165, in staggered_race
+    done = await _wait_one(
+           ^^^^^^^^^^^^^^^^
+        (*tasks, start_next) if start_next else tasks, loop
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/aiohappyeyeballs/_staggered.py", line 46, in _wait_one
+    return await wait_next
+           ^^^^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/upload_bots/8360629421/main.py", line 10876, in <module>
+    asyncio.run(StarTinG())
+    ~~~~~~~~~~~^^^^^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 123, in run
+    raise KeyboardInterrupt()
+KeyboardInterrupt

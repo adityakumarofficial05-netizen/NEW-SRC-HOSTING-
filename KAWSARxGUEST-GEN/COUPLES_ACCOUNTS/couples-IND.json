@@ -1,0 +1,282 @@
+[
+  {
+    "couple_id": "15960175099_15960175100",
+    "account1": {
+      "uid": 5092443859,
+      "password": "54271620457700AC678EFB4615EADE56EC2D1677B1AC0E20E01C1EB80A7EAB61",
+      "account_id": "15960175099",
+      "name": "ADI\u300c\u2133\u3016",
+      "thread_id": 23
+    },
+    "account2": {
+      "uid": 5092443846,
+      "password": "BD5EC6159ED97716050CFC9156068EB54F20553E0D62C3A887DF075B847030F0",
+      "account_id": "15960175100",
+      "name": "ADI\u30b8\u01a6\u22b9",
+      "thread_id": 31
+    },
+    "reason": "Sequential IDs: 15960175099 & 15960175100",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175055_15960175054",
+    "account1": {
+      "uid": 5092443865,
+      "password": "319D9ED37BE1A42E826EA7167032B771786163211E6FF0B31A339E9B8242A319",
+      "account_id": "15960175055",
+      "name": "ADI\u25b8\u266a\u30b8",
+      "thread_id": 2
+    },
+    "account2": {
+      "uid": 5092443858,
+      "password": "167CA2D417E8238526EA909EBC47D7DC00D8997F0DE253BB43ADC3238E147997",
+      "account_id": "15960175054",
+      "name": "ADI\u00b0\u2605\u30b8",
+      "thread_id": 10
+    },
+    "reason": "Sequential IDs: 15960175055 & 15960175054",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175076_15960175075",
+    "account1": {
+      "uid": 5092443832,
+      "password": "D3B281BAC9CEB133FDE974F62E8333D8DDD070758ECA2C11B393F7A3D14B434E",
+      "account_id": "15960175076",
+      "name": "ADI\uc6c3\u2022\u0187\u2606",
+      "thread_id": 14
+    },
+    "account2": {
+      "uid": 5092443834,
+      "password": "ADFD11D6683CA87D362E24444F979EDB066B3AF0C6FCF443764CC409F9692582",
+      "account_id": "15960175075",
+      "name": "ADI\u2727\u2364\u25c7\u30c4",
+      "thread_id": 7
+    },
+    "reason": "Sequential IDs: 15960175076 & 15960175075",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175134_15960175133",
+    "account1": {
+      "uid": 5092443853,
+      "password": "6441FEAEA3089BE5A8208BCCCF7DF43ED0D57C0EB86F5CB95160D3C3B7A01BED",
+      "account_id": "15960175134",
+      "name": "ADI\u221e\uc6c3\u1d0d\u01b8",
+      "thread_id": 12
+    },
+    "account2": {
+      "uid": 5092443878,
+      "password": "8C91DAC5AA1047E13A5EFBC7E7A79F1BC3C4D18EC94F7FB108A98D706F290D94",
+      "account_id": "15960175133",
+      "name": "ADI\u00b0\u30f3\u30b8",
+      "thread_id": 3
+    },
+    "reason": "Sequential IDs: 15960175134 & 15960175133",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175042_15960175043",
+    "account1": {
+      "uid": 5092443829,
+      "password": "477876B5BCEDDB7CBF6235B661873A56F305E8369A6C3BCD6482C09DEDE3727D",
+      "account_id": "15960175042",
+      "name": "ADI\ua9c2\uaa80\u25b8\uc720",
+      "thread_id": 19
+    },
+    "account2": {
+      "uid": 5092443843,
+      "password": "1D440E54DA9759B240C74DE346E4C5F23625401C290A8846822559EFB31AD067",
+      "account_id": "15960175043",
+      "name": "ADI\u0f3b\u2661\u22b9\u30c3",
+      "thread_id": 25
+    },
+    "reason": "Sequential IDs: 15960175042 & 15960175043",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175059_15960175060",
+    "account1": {
+      "uid": 5092443848,
+      "password": "E9D6E47CECAAB44FAB4B2B5C429CC97D7C39FC8BF17B42F995AF72D7E85AF9D6",
+      "account_id": "15960175059",
+      "name": "ADI\u30b8\u4e97\u2726\u3011",
+      "thread_id": 30
+    },
+    "account2": {
+      "uid": 5092443851,
+      "password": "06B62C6F990881546ADDC8E554A1B10C6B36092EA1E77D0F755EED0538AF41A3",
+      "account_id": "15960175060",
+      "name": "ADI\u3016\u029c\u30c3\u30c4",
+      "thread_id": 27
+    },
+    "reason": "Sequential IDs: 15960175059 & 15960175060",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175103_15960175104",
+    "account1": {
+      "uid": 5092443837,
+      "password": "94F9C06DE59EF261C0A72C5677EC90F791AC9BC0C118A2EBAA1B0B2E196B50AF",
+      "account_id": "15960175103",
+      "name": "ADI\u211b\u2727\u211b\uaa80",
+      "thread_id": 6
+    },
+    "account2": {
+      "uid": 5092443877,
+      "password": "7005B4E2E65D7171B4162156ED651783790FA12F091DF96537A5191514E84934",
+      "account_id": "15960175104",
+      "name": "ADI\u3017\u300e\u00b0",
+      "thread_id": 24
+    },
+    "reason": "Sequential IDs: 15960175103 & 15960175104",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:40"
+  },
+  {
+    "couple_id": "15960175959_15960175041",
+    "account1": {
+      "uid": 5092444470,
+      "password": "C769030ADA92802EAD0DE46BDABAEE67CA4344A9D7660A1DF884E31E3DD55ADE",
+      "account_id": "15960175959",
+      "name": "ADI\u30f3\u30b8\u01a7\u2c64",
+      "thread_id": 29
+    },
+    "account2": {
+      "uid": 5092443850,
+      "password": "0E3D72D10772641BA87B2520BCE52A2B2294CED56548BD1F14F47059990CDAC4",
+      "account_id": "15960175041",
+      "name": "ADI\u00b0\u0f3b\u22c6\u3011",
+      "thread_id": 29
+    },
+    "reason": "Complementary sum: 15960175959+15960175041=31920351000",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:44"
+  },
+  {
+    "couple_id": "15960176002_15960176003",
+    "account1": {
+      "uid": 5092444537,
+      "password": "D332770A9E2F248ABC031A5F2F9659C3FC49F18BAC2538AE190DB1FF6BAC36DC",
+      "account_id": "15960176002",
+      "name": "ADI\u22c6\u30c5\u3016\u25b2",
+      "thread_id": 4
+    },
+    "account2": {
+      "uid": 5092444495,
+      "password": "B8E7AB4323F45F1FBC52F5E1AD94A5B34E2D58C5139F93A91C26C476EE1A08CD",
+      "account_id": "15960176003",
+      "name": "ADI\u00d8\u0f3b\u30b7\u22c8",
+      "thread_id": 22
+    },
+    "reason": "Sequential IDs: 15960176002 & 15960176003",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:44"
+  },
+  {
+    "couple_id": "15960176007_15960176006",
+    "account1": {
+      "uid": 5092444523,
+      "password": "8412D4D13DB64E2DEF5C1C69863B154B6CE7FCDE0118E1CE624FDCE13302F0DB",
+      "account_id": "15960176007",
+      "name": "ADI\u3017\u211b\uc720\u2022",
+      "thread_id": 1
+    },
+    "account2": {
+      "uid": 5092444531,
+      "password": "0241B78208E955159FA59BDFD94BEC0A46C8BFE1D97144678ABC227F8D478591",
+      "account_id": "15960176006",
+      "name": "ADI\u2727\u0187\ua9c1\u2364",
+      "thread_id": 18
+    },
+    "reason": "Sequential IDs: 15960176007 & 15960176006",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:45"
+  },
+  {
+    "couple_id": "15960176058_15960176057",
+    "account1": {
+      "uid": 5092444530,
+      "password": "7F64DFFED0092ECB317C1CE141D1D92CC89B305FF18D115AD27C8F798A25CFDB",
+      "account_id": "15960176058",
+      "name": "ADI\u1d0d\u00b0\u2606\u01b8",
+      "thread_id": 11
+    },
+    "account2": {
+      "uid": 5092444528,
+      "password": "674C47FEDD71571D9959A57A84F36848F5B80064F1E2F5BD493C8A1EE24D1BCB",
+      "account_id": "15960176057",
+      "name": "ADI\u25c6\u2364\u1d0b",
+      "thread_id": 20
+    },
+    "reason": "Sequential IDs: 15960176058 & 15960176057",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:45"
+  },
+  {
+    "couple_id": "15960176108_15960176107",
+    "account1": {
+      "uid": 5092444570,
+      "password": "E6AA858B09D4253919E0D282FEF251622D46235DC8584CCF931ADEC596C6967B",
+      "account_id": "15960176108",
+      "name": "ADI\u2605\u0274\u00b7",
+      "thread_id": 9
+    },
+    "account2": {
+      "uid": 5092444580,
+      "password": "E4110EF00775987ED6FA3D278E8582632E9CA5253EFECDF2943E2299B3FE19A4",
+      "account_id": "15960176107",
+      "name": "ADI\u2364\u3016\u22b9\u2726",
+      "thread_id": 12
+    },
+    "reason": "Sequential IDs: 15960176108 & 15960176107",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:46"
+  },
+  {
+    "couple_id": "15960176067_15960176066",
+    "account1": {
+      "uid": 5092444547,
+      "password": "5BE38A00ADD7FAA92EDE4D448D57BDC464504EF99AF345B3037707BC9E5B4762",
+      "account_id": "15960176067",
+      "name": "ADI\u0187\u2302\u0f3a",
+      "thread_id": 2
+    },
+    "account2": {
+      "uid": 5092444541,
+      "password": "1EFD4BA7363E9678D113B05BAA8DF816F8B105CF37669932907D15698D99A7CE",
+      "account_id": "15960176066",
+      "name": "ADI\u0fd0\u5f61\u25b8\u30f3",
+      "thread_id": 30
+    },
+    "reason": "Sequential IDs: 15960176067 & 15960176066",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:46"
+  },
+  {
+    "couple_id": "15960176775_15960176774",
+    "account1": {
+      "uid": 5092444972,
+      "password": "EE91B37F7DA5F021BB23297220A4B59689BB354D95892FE080C07D9A5F643369",
+      "account_id": "15960176775",
+      "name": "ADI\u25b8\u026a\uc720",
+      "thread_id": 28
+    },
+    "account2": {
+      "uid": 5092444973,
+      "password": "DDA178946615A3A1F38722AA5D1E76417F2B57A24FF3098CF2211DDE619B84C6",
+      "account_id": "15960176774",
+      "name": "ADI\u30c4\u30c4\u25b8\u30c4",
+      "thread_id": 10
+    },
+    "reason": "Sequential IDs: 15960176775 & 15960176774",
+    "region": "IND",
+    "date_matched": "2026-06-08 16:08:51"
+  }
+]

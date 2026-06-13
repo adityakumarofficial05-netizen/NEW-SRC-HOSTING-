@@ -1,0 +1,364 @@
+
+[WATCHDOG] Auto restart at 2026-06-12 12:05:35.077597
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 12:05:35.328412
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:35:02.809123
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:35:02.894980
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:36:00.721865
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:36:00.787083
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:36:40.631215
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:36:40.693965
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:37:19.689608
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:37:19.763557
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:38:00.287889
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:38:00.465488
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:38:41.676687
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:38:41.744376
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:39:19.863322
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:39:19.930511
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:43:23.873333
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:43:23.958974
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:44:07.615156
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:44:07.686256
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:44:46.873302
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:44:47.072779
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:58:27.545066
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:58:27.621260
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:59:08.622391
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:59:08.686061
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:59:48.958181
+
+[HOST] Auto install checking...
+[HOST] Auto install done.
+
+[HOST] Starting Tempmail.py at 2026-06-12 16:59:49.027193
+/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py:432: PTBUserWarning: No `JobQueue` set up. To use `JobQueue`, you must install PTB via `pip install "python-telegram-bot[job-queue]"`.
+  job_queue = application.job_queue
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 440, in <module>
+    asyncio.run(main())    # clean event loop management, works on Render
+    ~~~~~~~~~~~^^^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 195, in run
+    return runner.run(main)
+           ~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 725, in run_until_complete
+    return future.result()
+           ~~~~~~~~~~~~~^^
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/7619511a/Tempmail.py", line 433, in main
+    job_queue.run_repeating(auto_check, interval=15, first=5)
+    ^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'run_repeating'

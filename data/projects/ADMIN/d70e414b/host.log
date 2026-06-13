@@ -1,0 +1,782 @@
+
+[WATCHDOG] Auto restart at 2026-06-12 16:35:06.727958
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Downloading tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ez7b64nr/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ez7b64nr/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ez7b64nr/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ez7b64nr/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:35:23.759475
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:35:47.536002
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-e03xosnc/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-e03xosnc/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-e03xosnc/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-e03xosnc/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:35:58.890314
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:36:25.417933
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-2ynvb9__/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-2ynvb9__/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-2ynvb9__/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-2ynvb9__/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:36:38.651168
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:37:05.247147
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-bakxnhfy/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-bakxnhfy/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-bakxnhfy/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-bakxnhfy/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:37:17.749134
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:37:44.386575
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-50ne6wwu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-50ne6wwu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-50ne6wwu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-50ne6wwu/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:37:58.462768
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:38:25.526157
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-hue8651i/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-hue8651i/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-hue8651i/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-hue8651i/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:38:39.794608
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:39:06.887804
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-gjceu2ke/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-gjceu2ke/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-gjceu2ke/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-gjceu2ke/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:39:18.081997
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:39:44.824328
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-lbdnbj1x/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-lbdnbj1x/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-lbdnbj1x/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-lbdnbj1x/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:40:01.078149
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 5, in <module>
+    import telegram.ext as tg
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/__init__.py", line 330, in <module>
+    from telegram._payment.stars.startransactions import StarTransaction, StarTransactions
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_payment/stars/startransactions.py", line 31, in <module>
+    from .transactionpartner import TransactionPartner
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_payment/stars/transactionpartner.py", line 27, in <module>
+    from telegram._gifts import Gift
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_gifts.py", line 26, in <module>
+    from telegram._files.sticker import Sticker
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_files/sticker.py", line 25, in <module>
+    from telegram._files._basethumbedmedium import _BaseThumbedMedium
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_files/_basethumbedmedium.py", line 23, in <module>
+    from telegram._files._basemedium import _BaseMedium
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1115, in get_code
+  File "<frozen importlib._bootstrap_external>", line 1214, in get_data
+KeyboardInterrupt
+
+[WATCHDOG] Auto restart at 2026-06-12 16:42:51.244059
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ysil5hix/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ysil5hix/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ysil5hix/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ysil5hix/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:43:16.090936
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:43:51.785493
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-u5ws865m/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-u5ws865m/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-u5ws865m/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-u5ws865m/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:44:05.758058
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:44:32.073553
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-sjoko0xt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-sjoko0xt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-sjoko0xt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-sjoko0xt/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:44:45.047184
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:57:56.575185
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-k0yepl55/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-k0yepl55/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-k0yepl55/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-k0yepl55/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:58:20.097333
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:58:53.902580
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ff5qcw1q/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ff5qcw1q/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ff5qcw1q/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-ff5qcw1q/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:59:06.907515
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 16:59:32.756245
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-03plp7_4/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-03plp7_4/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-03plp7_4/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-03plp7_4/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 16:59:46.370837
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 67, in <module>
+    from tg_bot.config import Development as Config
+ModuleNotFoundError: No module named 'tg_bot'
+
+[WATCHDOG] Auto restart at 2026-06-12 17:00:13.412378
+
+[HOST] Auto install checking...
+[AUTO-INSTALL] pip install tg_bot
+Collecting tg_bot
+  Using cached tg-bot-0.1.0.tar.gz (10 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'error'
+  error: subprocess-exited-with-error
+  
+  × Getting requirements to build wheel did not run successfully.
+  │ exit code: 1
+  ╰─> [23 lines of output]
+      Traceback (most recent call last):
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 389, in <module>
+          main()
+          ~~~~^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 373, in main
+          json_out["return_val"] = hook(**hook_input["kwargs"])
+                                   ~~~~^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/pip/_vendor/pyproject_hooks/_in_process/_in_process.py", line 143, in get_requires_for_build_wheel
+          return hook(config_settings)
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-fvztwvvl/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 333, in get_requires_for_build_wheel
+          return self._get_build_requires(config_settings, requirements=[])
+                 ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-fvztwvvl/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 301, in _get_build_requires
+          self.run_setup()
+          ~~~~~~~~~~~~~~^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-fvztwvvl/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 520, in run_setup
+          super().run_setup(setup_script=setup_script)
+          ~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        File "/data/data/com.termux/files/usr/tmp/pip-build-env-fvztwvvl/overlay/lib/python3.13/site-packages/setuptools/build_meta.py", line 317, in run_setup
+          exec(code, locals())
+          ~~~~^^^^^^^^^^^^^^^^
+        File "<string>", line 4, in <module>
+      ModuleNotFoundError: No module named 'pip'
+      [end of output]
+  
+  note: This error originates from a subprocess, and is likely not a problem with pip.
+ERROR: Failed to build 'tg_bot' when getting requirements to build wheel
+[HOST] Auto install done.
+
+[HOST] Starting __init__.py at 2026-06-12 17:00:27.172201
+Traceback (most recent call last):
+  File "/data/data/com.termux/files/home/downloads/data/projects/ADMIN/d70e414b/Miss-Rose-Bot-main/tg_bot/__init__.py", line 5, in <module>
+    import telegram.ext as tg
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/__init__.py", line 344, in <module>
+    from ._bot import Bot
+  File "/data/data/com.termux/files/usr/lib/python3.13/site-packages/telegram/_bot.py", line 22, in <module>
+    import asyncio
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/__init__.py", line 8, in <module>
+    from .base_events import *
+  File "/data/data/com.termux/files/usr/lib/python3.13/asyncio/base_events.py", line 44, in <module>
+    from . import sslproto
+  File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 1019, in exec_module
+  File "<frozen importlib._bootstrap_external>", line 1152, in get_code
+  File "<frozen importlib._bootstrap_external>", line 781, in _compile_bytecode
+KeyboardInterrupt
